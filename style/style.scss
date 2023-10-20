@@ -1,0 +1,17 @@
+// import global file
+@use "global" as *; 
+
+// import variables file
+@use "variables" as *; 
+
+// import header file
+@use "header" as *;
+
+// import landing file
+@use "landing" as *;
+
+// import activates file
+@use "activates" as *;
+
+// import footer file
+@use "footer" as *;

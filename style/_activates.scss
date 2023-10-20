@@ -1,0 +1,28 @@
+// import variables file
+@use "variables" as *; 
+/*! start activates */
+#activates {
+    padding: 20px;
+    color: black;
+    .p-cards {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 1em;
+    }
+    .card {
+        width: 15.625em;
+        background-color: $main_color;
+        img {
+            width: 15.625em;
+        }
+        .text {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            padding: 5px;
+            text-align: center;
+        }
+    }
+}
+/*! end activates */

@@ -1,0 +1,44 @@
+// import variables file
+@use "variables" as *; 
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    font-family: sans-serif;
+}
+@media (max-width: 767px) {
+    html {
+        font-size: 14px;
+    }
+}
+@media (max-width: 666px) {
+    html {
+        font-size: 13px;
+    }
+}
+@media (max-width: 565px) {
+    html {
+        font-size: 12px;
+    }
+}
+@media (max-width: 464px) {
+    html {
+        font-size: 8px;
+    }
+}
+@media (max-width: 363px) {
+    html {
+        font-size: 6px;
+    }
+}
+@media (max-width: 262px) {
+    html {
+        font-size: 6px;
+    }
+}
+.title {
+    text-align: center;
+}

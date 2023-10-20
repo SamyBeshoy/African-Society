@@ -1,0 +1,15 @@
+// import variables file
+@use "variables" as *; 
+/*! start footer*/
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: $main_color;
+    display: flex;
+    justify-content: space-around;
+    div a {
+        text-decoration: none;
+        color: white;
+    }
+}
+/*! end footer*/
