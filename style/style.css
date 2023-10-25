@@ -7,8 +7,19 @@ body {
   padding: 0;
   color: white;
   font-family: sans-serif;
+  animation: animation_for_body 0.75s;
 }
 
+@keyframes animation_for_body {
+  from {
+    opacity: 0;
+    transform: translateX(-10deg);
+  }
+  to {
+    opacity: 1;
+    transform: translateX(0deg);
+  }
+}
 @media (max-width: 767px) {
   html {
     font-size: 14px;
