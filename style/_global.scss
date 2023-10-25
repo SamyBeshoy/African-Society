@@ -13,9 +13,11 @@ body {
 @keyframes animation_for_body {
     from {
         opacity: 0;
+        transform: translatey(-10px);
     }
     to {
         opacity: 1;
+        transform: translatey(0px);
     }
 }
 @media (max-width: 767px) {
